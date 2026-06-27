@@ -35,11 +35,13 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ### Quick Demo (no training needed)
+
 ```bash
 python gpt2_text_generation.py demo
 ```
 
 ### Generate Text from a Prompt
+
 ```bash
 python gpt2_text_generation.py generate \
     --prompt "Artificial intelligence is transforming" \
@@ -50,6 +52,7 @@ python gpt2_text_generation.py generate \
 ```
 
 ### Fine-Tune on Your Own Dataset
+
 ```bash
 # Prepare a plain .txt file with your training text
 python gpt2_text_generation.py finetune \
@@ -60,6 +63,7 @@ python gpt2_text_generation.py finetune \
 ```
 
 ### Generate with Fine-Tuned Model
+
 ```bash
 python gpt2_text_generation.py generate \
     --prompt "Deep learning enables" \
@@ -84,27 +88,27 @@ Open `GPT2_Text_Generation.ipynb` in Jupyter or Google Colab for a fully interac
 
 ## 🔑 Key Concepts
 
-| Concept | Description |
-|---|---|
-| **GPT-2** | Autoregressive transformer language model by OpenAI |
-| **Fine-tuning** | Adapting a pre-trained model to a specific domain/style |
-| **Greedy decoding** | Always pick the highest-probability next token |
-| **Beam search** | Keep top-n candidate sequences at each step |
-| **Top-K sampling** | Sample from the K most likely tokens |
-| **Top-P (nucleus)** | Sample from the smallest set of tokens whose cumulative prob ≥ P |
-| **Temperature** | Scale logits — higher = more creative, lower = more deterministic |
-| **Repetition penalty** | Penalise already-generated tokens to reduce repetition |
+| Concept                      | Description                                                        |
+| ---------------------------- | ------------------------------------------------------------------ |
+| **GPT-2**              | Autoregressive transformer language model by OpenAI                |
+| **Fine-tuning**        | Adapting a pre-trained model to a specific domain/style            |
+| **Greedy decoding**    | Always pick the highest-probability next token                     |
+| **Beam search**        | Keep top-n candidate sequences at each step                        |
+| **Top-K sampling**     | Sample from the K most likely tokens                               |
+| **Top-P (nucleus)**    | Sample from the smallest set of tokens whose cumulative prob ≥ P  |
+| **Temperature**        | Scale logits — higher = more creative, lower = more deterministic |
+| **Repetition penalty** | Penalise already-generated tokens to reduce repetition             |
 
 ---
 
 ## 🧠 Model Variants
 
-| Model | Parameters | Notes |
-|---|---|---|
-| `gpt2` | 117M | Fast, good for experimentation |
-| `gpt2-medium` | 345M | Better coherence |
-| `gpt2-large` | 774M | High quality, needs more RAM |
-| `gpt2-xl` | 1.5B | Best quality, needs GPU |
+| Model           | Parameters | Notes                          |
+| --------------- | ---------- | ------------------------------ |
+| `gpt2`        | 117M       | Fast, good for experimentation |
+| `gpt2-medium` | 345M       | Better coherence               |
+| `gpt2-large`  | 774M       | High quality, needs more RAM   |
+| `gpt2-xl`     | 1.5B       | Best quality, needs GPU        |
 
 ---
 
