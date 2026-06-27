@@ -1,4 +1,4 @@
-# PRODIGY_ML_01 — GPT-2 Text Generation
+# PRODIGY_GA_01 — GPT-2 Text Generation
 
 > **ProDigy Infotech · Machine Learning Internship · Task 01**
 
@@ -9,11 +9,11 @@ Fine-tune GPT-2 on a custom text corpus and generate coherent, contextually rele
 ## 📂 Repository Structure
 
 ```
-PRODIGY_ML_01/
-├── gpt2_text_generation.py   # Main script (fine-tune + generate)
-├── GPT2_Text_Generation.ipynb# Interactive Jupyter notebook
-├── train_data.txt            # Sample training corpus (AI/ML domain)
-├── requirements.txt          # Python dependencies
+PRODIGY_GA_01/
+├── gpt2_text_generation.py    # Main script (fine-tune + generate)
+├── GPT2_Text_Generation.ipynb # Interactive Jupyter notebook
+├── train_data.txt             # Sample training corpus (AI/ML domain)
+├── requirements.txt           # Python dependencies
 └── README.md
 ```
 
@@ -23,8 +23,8 @@ PRODIGY_ML_01/
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/PRODIGY_ML_01.git
-cd PRODIGY_ML_01
+git clone https://github.com/Roohan09/PRODIGY_GA_01.git
+cd PRODIGY_GA_01
 
 # Install dependencies
 pip install -r requirements.txt
@@ -78,7 +78,7 @@ Open `GPT2_Text_Generation.ipynb` in Jupyter or Google Colab for a fully interac
 - Fine-tuning on a custom corpus
 - Interactive generation cell
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Roohan09/PRODIGY_GA_01/blob/main/GPT2_Text_Generation.ipynb)
 
 ---
 
@@ -131,7 +131,7 @@ Open `GPT2_Text_Generation.ipynb` in Jupyter or Google Colab for a fully interac
 >
 > 💡 Key learnings: transformer architecture, autoregressive language modeling, transfer learning, and the impact of decoding hyperparameters on text quality.
 >
-> 🔗 GitHub: github.com/<your-username>/PRODIGY_ML_01
+> 🔗 GitHub: github.com/Roohan09/PRODIGY_GA_01
 >
 > #MachineLearning #NLP #GPT2 #DeepLearning #ProdigyInfotech #Internship #AI #Transformers
 
